@@ -3,5 +3,5 @@ import { ExecuteScriptComponent } from './pages/execute-script/execute-script.co
 
 export const routes: Routes = [
     {path:"execute",component: ExecuteScriptComponent},
-    {path:"",redirectTo:'execute'},
+    {path:"",redirectTo:'execute',pathMatch:"full"},
 ];
